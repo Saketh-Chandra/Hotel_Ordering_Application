@@ -1,33 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c40aa25-e2ee-4a84-9f9c-fb526e38b02e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+    <list default="true" id="7c7f9957-6d73-4d17-97a2-b2a8d9997a9f" name="Default Changelist" comment="altered models">
+      <change afterPath="$PROJECT_DIR$/accounts/templates/accounts/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/templates/accounts/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/templates/accounts/navbar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/templates/accounts/settings.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Hotel_Ordering_Application.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Hotel_Ordering_Application.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hotel_Ordering_Application/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel_Ordering_Application/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hotel_Ordering_Application/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel_Ordering_Application/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/form.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/form.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/migrations/0002_auto_20210310_1315.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/url.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/url.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1pBYGxIfEs3lAkMNS6B77zPoxGF" />
+  <component name="JupyterTrust" id="d7589902-d6fb-4a35-8eb5-8ed8d7b7a825" />
+  <component name="ProjectId" id="1pYgyg6xXdZRhF9rorIEqpOeQ6t" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Open Lab" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Ekanth\Sem 6\Software Engineering\project\Hotel_Ordering_Application\accounts\templates\accounts" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Hotel_Ordering_Application" type="Python.DjangoServer" factoryName="Django server">
@@ -38,14 +91,14 @@
         <env name="PYTHONUNBUFFERED" value="1" />
         <env name="DJANGO_SETTINGS_MODULE" value="Hotel_Ordering_Application.settings" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\bsake\.virtualenvs\Hotel_Ordering_Application-bpjnJbNN\Scripts\python.exe" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="launchJavascriptDebuger" value="false" />
       <option name="port" value="8000" />
-      <option name="host" value="pc.local" />
+      <option name="host" value="" />
       <option name="additionalOptions" value="" />
       <option name="browserUrl" value="" />
       <option name="runTestServer" value="false" />
@@ -58,21 +111,20 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1c40aa25-e2ee-4a84-9f9c-fb526e38b02e" name="Default Changelist" comment="" />
-      <created>1614657858687</created>
+      <changelist id="7c7f9957-6d73-4d17-97a2-b2a8d9997a9f" name="Default Changelist" comment="" />
+      <created>1615365694114</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1614657858687</updated>
-      <workItem from="1614657910302" duration="280000" />
-      <workItem from="1614658821640" duration="661000" />
-      <workItem from="1614749950556" duration="1156000" />
+      <updated>1615365694114</updated>
+      <workItem from="1615365819430" duration="2215000" />
+      <workItem from="1615371559553" duration="12782000" />
     </task>
-    <task id="LOCAL-00001" summary="first commit!">
-      <created>1614658879165</created>
+    <task id="LOCAL-00001" summary="altered models">
+      <created>1615366594810</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1614658879165</updated>
+      <updated>1615366594810</updated>
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
@@ -80,8 +132,42 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="first commit!" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit!" />
+    <MESSAGE value="altered models" />
+    <option name="LAST_COMMIT_MESSAGE" value="altered models" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1615388894378">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1615388894378" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1615388894378">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1615388894378" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1615388894378">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1615388894378" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1615388894378">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1615388894378" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1615366639294">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1615366639294" />
   </component>
 </project>
