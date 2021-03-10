@@ -21,9 +21,10 @@ class CustomUserAdmin(UserAdmin):
                     'Gender',
                     'address1',
                     'address2',
-                    'zip_code',
+                    'pin_code',
                     'city',
-                    'country'
+                    'country',
+                    'profile_pic'
                 )
             }
         )
