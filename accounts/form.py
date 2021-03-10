@@ -19,3 +19,9 @@ class CustomUserCreationForm(UserCreationForm):
     class Meta:
         model = CustomUser
         fields = ['username', 'email', 'password1', 'password2']
+
+class settigs_form(ModelForm):
+    DOB = forms.DateTimeField(input_formats=['%d/%m/%Y %H:%M'])
+    class Meta:
+        model = CustomUser
+        fields = ['email','name','Gender','DOB','phone_number','profile_pic','address1','address2','pin_code','city','country','proof']
