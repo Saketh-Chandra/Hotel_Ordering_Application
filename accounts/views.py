@@ -1,7 +1,7 @@
 from django.shortcuts import render, redirect
 from django.http import HttpResponse
 # from django.contrib.auth.forms import UserCreationForm
-from .form import CustomUserCreationForm
+from .form import CustomUserCreationForm,settigs_form
 from django.contrib import messages
 from django.contrib.auth import authenticate, login, logout
 from .decorators import unauthenticated_user
@@ -12,7 +12,7 @@ import re
 # Create your views here.
 
 def hello_world(request):
-    return HttpResponse(f"<h3>Hello {request.user}!</h3>")
+    return render(request,'accounts/home.html')
 
 
 @unauthenticated_user
@@ -85,3 +85,16 @@ def default_home(request):
         # return HttpResponse('You are not authorized to view this page')
     else:
         return redirect('hello')
+
+def settings_view(request):
+    userr = request.user
+    form = settigs_form(instance=userr)
+    if request.method == 'POST':
+        form = settigs_form(request.POST,request.FILES,instance=userr)
+        if form.is_valid():
+            form.save()
+            return redirect('hello')
+        else:
+            return redirect('settings')
+    context={'form':form}
+    return render(request,'accounts/settings.html',context)
