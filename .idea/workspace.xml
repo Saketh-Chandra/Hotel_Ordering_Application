@@ -19,17 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c7f9957-6d73-4d17-97a2-b2a8d9997a9f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/accounts/templates/accounts/update_profile_pic.html" afterDir="false" />
+    <list default="true" id="7c7f9957-6d73-4d17-97a2-b2a8d9997a9f" name="Default Changelist" comment="uptodate files.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/form.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/form.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/templates/accounts/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/accounts/main.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/accounts/templates/accounts/settings.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/accounts/settings.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/url.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/url.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +33,9 @@
     <option name="groupingKeys">
       <option value="directory" />
     </option>
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -110,7 +106,7 @@
       <workItem from="1615371559553" duration="12782000" />
       <workItem from="1615393608855" duration="520000" />
       <workItem from="1615451928521" duration="3421000" />
-      <workItem from="1615468577214" duration="737000" />
+      <workItem from="1615468577214" duration="1763000" />
     </task>
     <task id="LOCAL-00001" summary="altered models">
       <created>1615366594810</created>
@@ -217,7 +213,49 @@
       <option name="project" value="LOCAL" />
       <updated>1615394063853</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="seperate form is created for to update the profile picture.">
+      <created>1615470597945</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1615470597945</updated>
+    </task>
+    <task id="LOCAL-00017" summary="proof and Birthday is altered.">
+      <created>1615470622636</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1615470622636</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Birthday is altered. proof is added.">
+      <created>1615470709856</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1615470709856</updated>
+    </task>
+    <task id="LOCAL-00019" summary="New url is created for for the profile picture updation.">
+      <created>1615470752211</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1615470752211</updated>
+    </task>
+    <task id="LOCAL-00020" summary="New view is created for for the profile picture updation. And the old profile picture will delete from the file.">
+      <created>1615470786806</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1615470786806</updated>
+    </task>
+    <task id="LOCAL-00021" summary="uptodate files.">
+      <created>1615470810649</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1615470810649</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,7 +289,13 @@
     <MESSAGE value="urls updated." />
     <MESSAGE value="settings is updated." />
     <MESSAGE value="upto date files." />
-    <option name="LAST_COMMIT_MESSAGE" value="upto date files." />
+    <MESSAGE value="seperate form is created for to update the profile picture." />
+    <MESSAGE value="proof and Birthday is altered." />
+    <MESSAGE value="Birthday is altered. proof is added." />
+    <MESSAGE value="New url is created for for the profile picture updation." />
+    <MESSAGE value="New view is created for for the profile picture updation. And the old profile picture will delete from the file." />
+    <MESSAGE value="uptodate files." />
+    <option name="LAST_COMMIT_MESSAGE" value="uptodate files." />
   </component>
   <component name="WindowStateProjectService">
     <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1615388894378">
@@ -270,9 +314,13 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1615388894378" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1615394117147">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1615470821891">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1615394117147" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1615470821891" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1615470723728">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1615470723728" />
   </component>
 </project>
