@@ -1,7 +1,7 @@
 from django.shortcuts import render, redirect
 from django.http import HttpResponse
 # from django.contrib.auth.forms import UserCreationForm
-from .form import CustomUserCreationForm,settigs_form
+from .form import CustomUserCreationForm,settigs_form,update_profile_form
 from django.contrib import messages
 from django.contrib.auth import authenticate, login, logout
 from .decorators import unauthenticated_user
@@ -98,3 +98,17 @@ def settings_view(request):
             return redirect('settings')
     context={'form':form}
     return render(request,'accounts/settings.html',context)
+
+def update_profile_view(request):
+    user_pic = request.user
+    form = update_profile_form(instance=user_pic)
+    if request.method == "POST":
+        form = update_profile_form(request.POST,request.FILES,instance=user_pic)
+        user_pic.profile_pic.delete(save=True)
+        if form.is_valid():
+            form.save()
+            return redirect('settings')
+        else:
+            return redirect('update_profile_pic')
+    context = {"form":form}
+    return render(request,"accounts/update_profile_pic.html",context)
