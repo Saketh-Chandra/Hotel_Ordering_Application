@@ -16,7 +16,7 @@ class CustomUserAdmin(UserAdmin):
             'Info',
             {
                 'fields': (
-                    'DOB',
+                    'Birthday',
                     'phone_number',
                     'Gender',
                     'address1',
@@ -24,7 +24,8 @@ class CustomUserAdmin(UserAdmin):
                     'pin_code',
                     'city',
                     'country',
-                    'profile_pic'
+                    'profile_pic',
+                    'proof'
                 )
             }
         )
