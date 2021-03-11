@@ -19,27 +19,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c7f9957-6d73-4d17-97a2-b2a8d9997a9f" name="Default Changelist" comment="altered models">
-      <change afterPath="$PROJECT_DIR$/accounts/templates/accounts/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/templates/accounts/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/templates/accounts/navbar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/templates/accounts/settings.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Hotel_Ordering_Application.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Hotel_Ordering_Application.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="7c7f9957-6d73-4d17-97a2-b2a8d9997a9f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/accounts/templates/accounts/update_profile_pic.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hotel_Ordering_Application/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel_Ordering_Application/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hotel_Ordering_Application/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel_Ordering_Application/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/accounts/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/accounts/form.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/form.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/migrations/0002_auto_20210310_1315.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/migrations/0001_initial.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/accounts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/templates/accounts/settings.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/accounts/settings.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/accounts/url.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/url.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,6 +108,9 @@
       <updated>1615365694114</updated>
       <workItem from="1615365819430" duration="2215000" />
       <workItem from="1615371559553" duration="12782000" />
+      <workItem from="1615393608855" duration="520000" />
+      <workItem from="1615451928521" duration="3421000" />
+      <workItem from="1615468577214" duration="737000" />
     </task>
     <task id="LOCAL-00001" summary="altered models">
       <created>1615366594810</created>
@@ -126,7 +119,105 @@
       <option name="project" value="LOCAL" />
       <updated>1615366594810</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="pin_code is changed and profile picture and ID Proof is added.">
+      <created>1615393710368</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1615393710368</updated>
+    </task>
+    <task id="LOCAL-00003" summary="setting_form is added.">
+      <created>1615393740364</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1615393740364</updated>
+    </task>
+    <task id="LOCAL-00004" summary="new attributes Proof and profile_pic is added and zip_code is changed to pin_code.">
+      <created>1615393783386</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1615393783386</updated>
+    </task>
+    <task id="LOCAL-00005" summary="settings url is added and name for logout is altered.">
+      <created>1615393835624</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1615393835624</updated>
+    </task>
+    <task id="LOCAL-00006" summary="settings veiw is added.">
+      <created>1615393861214</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1615393861214</updated>
+    </task>
+    <task id="LOCAL-00007" summary="home page is created.">
+      <created>1615393885936</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1615393885936</updated>
+    </task>
+    <task id="LOCAL-00008" summary="main page is created.">
+      <created>1615393903519</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1615393903519</updated>
+    </task>
+    <task id="LOCAL-00009" summary="navbar is created.">
+      <created>1615393919563</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1615393919563</updated>
+    </task>
+    <task id="LOCAL-00010" summary="media url is added and settings updated for media.">
+      <created>1615393959743</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1615393959743</updated>
+    </task>
+    <task id="LOCAL-00011" summary="main css file is created.">
+      <created>1615393984129</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1615393984129</updated>
+    </task>
+    <task id="LOCAL-00012" summary="updated database">
+      <created>1615393998979</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1615393998979</updated>
+    </task>
+    <task id="LOCAL-00013" summary="urls updated.">
+      <created>1615394023396</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1615394023396</updated>
+    </task>
+    <task id="LOCAL-00014" summary="settings is updated.">
+      <created>1615394036919</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1615394036919</updated>
+    </task>
+    <task id="LOCAL-00015" summary="upto date files.">
+      <created>1615394063853</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1615394063853</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,7 +237,21 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="altered models" />
-    <option name="LAST_COMMIT_MESSAGE" value="altered models" />
+    <MESSAGE value="pin_code is changed and profile picture and ID Proof is added." />
+    <MESSAGE value="setting_form is added." />
+    <MESSAGE value="new attributes Proof and profile_pic is added and zip_code is changed to pin_code." />
+    <MESSAGE value="settings url is added and name for logout is altered." />
+    <MESSAGE value="settings veiw is added." />
+    <MESSAGE value="home page is created." />
+    <MESSAGE value="main page is created." />
+    <MESSAGE value="navbar is created." />
+    <MESSAGE value="media url is added and settings updated for media." />
+    <MESSAGE value="main css file is created." />
+    <MESSAGE value="updated database" />
+    <MESSAGE value="urls updated." />
+    <MESSAGE value="settings is updated." />
+    <MESSAGE value="upto date files." />
+    <option name="LAST_COMMIT_MESSAGE" value="upto date files." />
   </component>
   <component name="WindowStateProjectService">
     <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1615388894378">
@@ -165,9 +270,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1615388894378" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1615366639294">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1615394117147">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1615366639294" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1615394117147" />
   </component>
 </project>
