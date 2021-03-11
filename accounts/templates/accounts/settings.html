@@ -4,7 +4,7 @@
 {% block content %}
     <script>
         $(function () {
-            $("#id_DOB").datetimepicker({
+            $("#id_Birthday").datetimepicker({
                 format: 'd/m/Y H:i',
             });
         });
@@ -16,17 +16,24 @@
             margin: 0 auto;
             border-radius: 50%;
         }
+
+        .proof-pic {
+            max-width: 100px;
+            max-height: 100px;
+            margin: 0 auto;
+            overflow: hidden;
+            border-radius: 50%;
+        }
     </style>
 
     <div class="row">
         <div class="col-md-3">
             <div class="card card-body">
-                <a class="btn btn-warning" href="{% url 'hello' %}"> &#8592; Back to Home</a>
+                <a class="btn btn-warning" href="{% url 'update_profile_pic' %}"> &#8592; update profile</a>
                 <hr>
                 <h3 style="text-align: center">Account Settings</h3>
                 <hr>
                 <img class="profile-pic" src="{{ request.user.profile_pic.url }}">
-
 
 
             </div>
@@ -47,7 +54,7 @@
                     {{ form.Gender|as_crispy_field }}
                 </div>
                 <div class="col-3">
-                    {{ form.DOB|as_crispy_field }}
+                    {{ form.Birthday|as_crispy_field }}
                 </div>
             </div>
             <div class="row">
@@ -74,10 +81,8 @@
                     {{ form.country|as_crispy_field }}
                 </div>
                 <div class="col-3">
-                    {{ form.profile_pic|as_crispy_field }}
-                </div>
-                <div class="col-3">
                     {{ form.proof|as_crispy_field }}
+                    <img class="proof-pic" src="{{ request.user.proof.url }}">
                 </div>
             </div>
             {{ form.errors }}

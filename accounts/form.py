@@ -21,7 +21,11 @@ class CustomUserCreationForm(UserCreationForm):
         fields = ['username', 'email', 'password1', 'password2']
 
 class settigs_form(ModelForm):
-    DOB = forms.DateTimeField(input_formats=['%d/%m/%Y %H:%M'])
+    Birthday = forms.DateTimeField(input_formats=['%d/%m/%Y %H:%M'])
     class Meta:
         model = CustomUser
-        fields = ['email','name','Gender','DOB','phone_number','profile_pic','address1','address2','pin_code','city','country','proof']
+        fields = ['email','name','Gender','Birthday','phone_number','address1','address2','pin_code','city','country','proof']
+class update_profile_form(ModelForm):
+    class Meta:
+        model = CustomUser
+        fields = ['profile_pic']
