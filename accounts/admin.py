@@ -16,14 +16,16 @@ class CustomUserAdmin(UserAdmin):
             'Info',
             {
                 'fields': (
-                    'DOB',
+                    'Birthday',
                     'phone_number',
                     'Gender',
                     'address1',
                     'address2',
-                    'zip_code',
+                    'pin_code',
                     'city',
-                    'country'
+                    'country',
+                    'profile_pic',
+                    'proof'
                 )
             }
         )

@@ -1,39 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c40aa25-e2ee-4a84-9f9c-fb526e38b02e" name="Default Changelist" comment="created custom user model and accounts(url ,views,templates)">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="7c7f9957-6d73-4d17-97a2-b2a8d9997a9f" name="Default Changelist" comment="uptodate files.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/form.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/form.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/templates/accounts/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/accounts/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/templates/accounts/settings.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/accounts/settings.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1pBYGxIfEs3lAkMNS6B77zPoxGF" />
+  <component name="JupyterTrust" id="d7589902-d6fb-4a35-8eb5-8ed8d7b7a825" />
+  <component name="ProjectId" id="1pYgyg6xXdZRhF9rorIEqpOeQ6t" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Open Lab" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Ekanth\Sem 6\Software Engineering\project\Hotel_Ordering_Application\accounts\templates\accounts" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Hotel_Ordering_Application" type="Python.DjangoServer" factoryName="Django server">
@@ -44,14 +77,14 @@
         <env name="PYTHONUNBUFFERED" value="1" />
         <env name="DJANGO_SETTINGS_MODULE" value="Hotel_Ordering_Application.settings" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\bsake\.virtualenvs\Hotel_Ordering_Application-bpjnJbNN\Scripts\python.exe" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="launchJavascriptDebuger" value="false" />
       <option name="port" value="8000" />
-      <option name="host" value="pc.local" />
+      <option name="host" value="" />
       <option name="additionalOptions" value="" />
       <option name="browserUrl" value="" />
       <option name="runTestServer" value="false" />
@@ -64,64 +97,230 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1c40aa25-e2ee-4a84-9f9c-fb526e38b02e" name="Default Changelist" comment="" />
-      <created>1614657858687</created>
+      <changelist id="7c7f9957-6d73-4d17-97a2-b2a8d9997a9f" name="Default Changelist" comment="" />
+      <created>1615365694114</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1614657858687</updated>
-      <workItem from="1614657910302" duration="280000" />
-      <workItem from="1614658821640" duration="661000" />
-      <workItem from="1614749950556" duration="1443000" />
-      <workItem from="1614752670726" duration="1788000" />
-      <workItem from="1614848135233" duration="22000" />
-      <workItem from="1615274919282" duration="4986000" />
-      <workItem from="1615358858761" duration="5411000" />
-      <workItem from="1615372625043" duration="1328000" />
-      <workItem from="1615433972815" duration="654000" />
-      <workItem from="1615447188601" duration="12000" />
-      <workItem from="1615969081636" duration="1606000" />
+      <updated>1615365694114</updated>
+      <workItem from="1615365819430" duration="2215000" />
+      <workItem from="1615371559553" duration="12782000" />
+      <workItem from="1615393608855" duration="520000" />
+      <workItem from="1615451928521" duration="3421000" />
+      <workItem from="1615468577214" duration="1763000" />
     </task>
-    <task id="LOCAL-00001" summary="first commit!">
-      <created>1614658879165</created>
+    <task id="LOCAL-00001" summary="altered models">
+      <created>1615366594810</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1614658879165</updated>
+      <updated>1615366594810</updated>
     </task>
-    <task id="LOCAL-00002" summary="added local host and createsuperuser">
-      <created>1614752416653</created>
+    <task id="LOCAL-00002" summary="pin_code is changed and profile picture and ID Proof is added.">
+      <created>1615393710368</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1614752416653</updated>
+      <updated>1615393710368</updated>
     </task>
-    <task id="LOCAL-00003" summary="created custom user model and accounts(url ,views,templates)">
-      <created>1615363779938</created>
+    <task id="LOCAL-00003" summary="setting_form is added.">
+      <created>1615393740364</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1615363779938</updated>
+      <updated>1615393740364</updated>
     </task>
-    <task id="LOCAL-00004" summary="created custom user model and accounts(url ,views,templates)">
-      <created>1615363868305</created>
+    <task id="LOCAL-00004" summary="new attributes Proof and profile_pic is added and zip_code is changed to pin_code.">
+      <created>1615393783386</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1615363868305</updated>
+      <updated>1615393783386</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="settings url is added and name for logout is altered.">
+      <created>1615393835624</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1615393835624</updated>
+    </task>
+    <task id="LOCAL-00006" summary="settings veiw is added.">
+      <created>1615393861214</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1615393861214</updated>
+    </task>
+    <task id="LOCAL-00007" summary="home page is created.">
+      <created>1615393885936</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1615393885936</updated>
+    </task>
+    <task id="LOCAL-00008" summary="main page is created.">
+      <created>1615393903519</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1615393903519</updated>
+    </task>
+    <task id="LOCAL-00009" summary="navbar is created.">
+      <created>1615393919563</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1615393919563</updated>
+    </task>
+    <task id="LOCAL-00010" summary="media url is added and settings updated for media.">
+      <created>1615393959743</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1615393959743</updated>
+    </task>
+    <task id="LOCAL-00011" summary="main css file is created.">
+      <created>1615393984129</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1615393984129</updated>
+    </task>
+    <task id="LOCAL-00012" summary="updated database">
+      <created>1615393998979</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1615393998979</updated>
+    </task>
+    <task id="LOCAL-00013" summary="urls updated.">
+      <created>1615394023396</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1615394023396</updated>
+    </task>
+    <task id="LOCAL-00014" summary="settings is updated.">
+      <created>1615394036919</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1615394036919</updated>
+    </task>
+    <task id="LOCAL-00015" summary="upto date files.">
+      <created>1615394063853</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1615394063853</updated>
+    </task>
+    <task id="LOCAL-00016" summary="seperate form is created for to update the profile picture.">
+      <created>1615470597945</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1615470597945</updated>
+    </task>
+    <task id="LOCAL-00017" summary="proof and Birthday is altered.">
+      <created>1615470622636</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1615470622636</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Birthday is altered. proof is added.">
+      <created>1615470709856</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1615470709856</updated>
+    </task>
+    <task id="LOCAL-00019" summary="New url is created for for the profile picture updation.">
+      <created>1615470752211</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1615470752211</updated>
+    </task>
+    <task id="LOCAL-00020" summary="New view is created for for the profile picture updation. And the old profile picture will delete from the file.">
+      <created>1615470786806</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1615470786806</updated>
+    </task>
+    <task id="LOCAL-00021" summary="uptodate files.">
+      <created>1615470810649</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1615470810649</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
-    <ignored-roots>
-      <path value="$PROJECT_DIR$/../.." />
-    </ignored-roots>
-    <MESSAGE value="first commit!" />
-    <MESSAGE value="added local host and createsuperuser" />
-    <MESSAGE value="created custom user model and accounts(url ,views,templates)" />
-    <option name="LAST_COMMIT_MESSAGE" value="created custom user model and accounts(url ,views,templates)" />
+    <MESSAGE value="altered models" />
+    <MESSAGE value="pin_code is changed and profile picture and ID Proof is added." />
+    <MESSAGE value="setting_form is added." />
+    <MESSAGE value="new attributes Proof and profile_pic is added and zip_code is changed to pin_code." />
+    <MESSAGE value="settings url is added and name for logout is altered." />
+    <MESSAGE value="settings veiw is added." />
+    <MESSAGE value="home page is created." />
+    <MESSAGE value="main page is created." />
+    <MESSAGE value="navbar is created." />
+    <MESSAGE value="media url is added and settings updated for media." />
+    <MESSAGE value="main css file is created." />
+    <MESSAGE value="updated database" />
+    <MESSAGE value="urls updated." />
+    <MESSAGE value="settings is updated." />
+    <MESSAGE value="upto date files." />
+    <MESSAGE value="seperate form is created for to update the profile picture." />
+    <MESSAGE value="proof and Birthday is altered." />
+    <MESSAGE value="Birthday is altered. proof is added." />
+    <MESSAGE value="New url is created for for the profile picture updation." />
+    <MESSAGE value="New view is created for for the profile picture updation. And the old profile picture will delete from the file." />
+    <MESSAGE value="uptodate files." />
+    <option name="LAST_COMMIT_MESSAGE" value="uptodate files." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1615388894378">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1615388894378" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1615388894378">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1615388894378" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1615388894378">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1615388894378" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1615388894378">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1615388894378" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1615470821891">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1615470821891" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1615470723728">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1615470723728" />
   </component>
 </project>
