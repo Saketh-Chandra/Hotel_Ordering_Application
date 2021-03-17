@@ -41,12 +41,11 @@ def register_views(request):
             # form.save()
             user = form.save(commit=False)
             user.save()
-
             user_name = form.cleaned_data.get('username')
-            # print(user_name)
             messages.success(request, 'Account was successfully created for ' + user_name)
             return redirect('login_page')
         else:
+            print(form.error_messages)
             messages.error(request, 'Account was unsuccessfully created')
             return redirect('register_page')
     context = {'form': form}

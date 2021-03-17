@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c40aa25-e2ee-4a84-9f9c-fb526e38b02e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+    <list default="true" id="1c40aa25-e2ee-4a84-9f9c-fb526e38b02e" name="Default Changelist" comment="created custom user model and accounts(url ,views,templates)">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hotel_Ordering_Application/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel_Ordering_Application/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/form.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/form.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -27,7 +33,7 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
     <configuration name="Hotel_Ordering_Application" type="Python.DjangoServer" factoryName="Django server">
@@ -65,7 +71,15 @@
       <updated>1614657858687</updated>
       <workItem from="1614657910302" duration="280000" />
       <workItem from="1614658821640" duration="661000" />
-      <workItem from="1614749950556" duration="1156000" />
+      <workItem from="1614749950556" duration="1443000" />
+      <workItem from="1614752670726" duration="1788000" />
+      <workItem from="1614848135233" duration="22000" />
+      <workItem from="1615274919282" duration="4986000" />
+      <workItem from="1615358858761" duration="5411000" />
+      <workItem from="1615372625043" duration="1328000" />
+      <workItem from="1615433972815" duration="654000" />
+      <workItem from="1615447188601" duration="12000" />
+      <workItem from="1615969081636" duration="1606000" />
     </task>
     <task id="LOCAL-00001" summary="first commit!">
       <created>1614658879165</created>
@@ -74,14 +88,40 @@
       <option name="project" value="LOCAL" />
       <updated>1614658879165</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added local host and createsuperuser">
+      <created>1614752416653</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1614752416653</updated>
+    </task>
+    <task id="LOCAL-00003" summary="created custom user model and accounts(url ,views,templates)">
+      <created>1615363779938</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1615363779938</updated>
+    </task>
+    <task id="LOCAL-00004" summary="created custom user model and accounts(url ,views,templates)">
+      <created>1615363868305</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1615363868305</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../.." />
+    </ignored-roots>
     <MESSAGE value="first commit!" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit!" />
+    <MESSAGE value="added local host and createsuperuser" />
+    <MESSAGE value="created custom user model and accounts(url ,views,templates)" />
+    <option name="LAST_COMMIT_MESSAGE" value="created custom user model and accounts(url ,views,templates)" />
   </component>
 </project>
