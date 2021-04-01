@@ -1,9 +1,11 @@
 from django.shortcuts import render, redirect
 from django.http import HttpResponse
 # from django.contrib.auth.forms import UserCreationForm
-from .form import CustomUserCreationForm,settigs_form,update_profile_form
+from .form import CustomUserCreationForm,settigs_form,update_profile_form,passwordchangingform
 from django.contrib import messages
+from django.contrib.auth.views import PasswordChangeView
 from django.contrib.auth import authenticate, login, logout
+from django.urls import reverse_lazy
 from .decorators import unauthenticated_user
 from django.contrib.auth.models import Group
 import re
@@ -115,3 +117,9 @@ def update_profile_view(request):
             return redirect('update_profile_pic')
     context = {"form":form}
     return render(request,"accounts/update_profile_pic.html",context)
+
+class update_password(PasswordChangeView):
+    form_class = passwordchangingform
+    #messages.add_message(self.request, messages.INFO, 'Hello world.')
+    success_message = "Your Password was successfully Changed!"
+    success_url = reverse_lazy('settings')
