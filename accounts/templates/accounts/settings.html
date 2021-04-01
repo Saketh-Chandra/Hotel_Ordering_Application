@@ -83,6 +83,9 @@
                     {{ form.proof|as_crispy_field }}
                     <img class="proof-pic" src="{{ request.user.proof.url }}">
                 </div>
+                <div class="col-3">
+                    <a class="btn btn-warning" href="{% url 'update_password' %}">update password</a>
+                </div>
             </div>
             {{ form.errors }}
             <br>
