@@ -37,6 +37,9 @@ def register_views(request):
 
     if request.method == 'POST':
         form = CustomUserCreationForm(request.POST)
+        print("The user is",form.is_valid())
+        print("The form is",form)
+        print("The form errors is",form.errors)
         if form.is_valid():
             # form.save()
             user = form.save(commit=False)
