@@ -1,5 +1,5 @@
 from django.forms import ModelForm
-from django.contrib.auth.forms import UserCreationForm
+from django.contrib.auth.forms import UserCreationForm,PasswordChangeForm
 from django import forms
 # from django.contrib.auth.models import User
 from .models import CustomUser
@@ -20,3 +20,11 @@ class update_profile_form(ModelForm):
     class Meta:
         model = CustomUser
         fields = ['profile_pic']
+
+class passwordchangingform(PasswordChangeForm):
+    old_password = forms.CharField(max_length=50,widget=forms.PasswordInput(attrs={'class':'form-control','type':'password'}))
+    new_password1 = forms.CharField(max_length=50,widget=forms.PasswordInput(attrs={'class':'form-control','type':'password'}))
+    new_password2 = forms.CharField(max_length=50,widget=forms.PasswordInput(attrs={'class':'form-control','type':'password'}))
+    class Meta:
+        model = CustomUser
+        fields = ['old_password','new_password1','new_password2']
