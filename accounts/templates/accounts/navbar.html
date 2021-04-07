@@ -10,6 +10,11 @@
         color: gainsboro;
         margin-right: 10px;
     }
+    .time-msg{
+        font-size: 15px;
+        color: white;
+        margin-right: 10px;
+    }
 </style>
 
 
@@ -26,7 +31,8 @@
             <a class="nav-item nav-link disabled" href="#">Disabled</a>
         </div>
     </div>
-    <span class="logout-msg">{% now "jS - F - Y  H:i:s" %}</span>
+{#    <span class="logout-msg">{% now "jS - F - Y  H:i:s" %}</span>#}
+    <span><div id="clock" class="time-msg"><p>Time is precious.</p></div></span>
     <span class="hello-msg">Hello, {{ request.user }}</span>
     <span><a class="logout-msg" href="{% url 'logout' %}"> Logout</a></span>
 </nav>
