@@ -138,7 +138,7 @@ STATICFILES_DIRS = [
 ]
 MEDIA_ROOT = os.path.join(BASE_DIR, 'static/images')
 
-# Email verifiycation
+# Email verification
 LOGIN_URL = '/accounts/login/'
 VERIFICATION_SUCCESS_TEMPLATE = None
 SUBJECT = 'Email Verification - Hotel Ordering'
