@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'accounts',
     'crispy_forms',
+    "verify_email",
 ]
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 MIDDLEWARE = [
@@ -73,7 +74,6 @@ TEMPLATES = [
 WSGI_APPLICATION = 'Hotel_Ordering_Application.wsgi.application'
 AUTH_USER_MODEL = 'accounts.CustomUser'
 
-
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
@@ -83,7 +83,10 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+# Default primary key field type
+# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
 
@@ -115,6 +118,15 @@ USE_L10N = True
 
 USE_TZ = True
 
+# Email Configuration
+# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_USE_TLS = True
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = os.environ.get('EMAIL_ID')
+EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_PW')
+EMAIL_PORT = 587
+DEFAULT_FROM_EMAIL = os.environ.get('EMAIL_ID')
+
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
@@ -122,6 +134,11 @@ STATIC_URL = '/static/'
 
 MEDIA_URL = '/images/'
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR,'static')
+    os.path.join(BASE_DIR, 'static')
 ]
-MEDIA_ROOT = os.path.join(BASE_DIR,'static/images')
+MEDIA_ROOT = os.path.join(BASE_DIR, 'static/images')
+
+# Email verifiycation
+LOGIN_URL = '/accounts/login/'
+VERIFICATION_SUCCESS_TEMPLATE = None
+SUBJECT = 'Email Verification - Hotel Ordering'
