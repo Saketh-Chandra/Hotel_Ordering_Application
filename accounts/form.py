@@ -13,10 +13,12 @@ class CustomUserCreationForm(UserCreationForm):
 
 class settigs_form(ModelForm):
     Birthday = forms.DateTimeField(input_formats=['%d/%m/%Y %H:%M'])
+    proof = forms.ImageField(widget=forms.FileInput)
     class Meta:
         model = CustomUser
         fields = ['email','name','Gender','Birthday','phone_number','address1','address2','pin_code','city','country','proof']
 class update_profile_form(ModelForm):
+    profile_pic = forms.ImageField(widget=forms.FileInput)
     class Meta:
         model = CustomUser
         fields = ['profile_pic']
