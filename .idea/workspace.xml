@@ -20,9 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c7f9957-6d73-4d17-97a2-b2a8d9997a9f" name="Default Changelist" comment="uptodate files.">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/templates/accounts/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/accounts/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/templates/accounts/settings.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/accounts/settings.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hotel_Ordering_Application/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel_Ordering_Application/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hotel_Ordering_Application/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel_Ordering_Application/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/form.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/form.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/templates/accounts/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/accounts/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/templates/accounts/registerPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/accounts/registerPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/url.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/url.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,9 +67,13 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Open Lab" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -68,7 +81,7 @@
       <recent name="D:\Ekanth\Sem 6\Software Engineering\project\Hotel_Ordering_Application\accounts\templates\accounts" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Django Server.pc">
     <configuration name="Hotel_Ordering_Application" type="Python.DjangoServer" factoryName="Django server">
       <module name="Hotel_Ordering_Application" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -76,8 +89,10 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
         <env name="DJANGO_SETTINGS_MODULE" value="Hotel_Ordering_Application.settings" />
+        <env name="EMAIL_PW" value="Thankyougoogle" />
+        <env name="EMAIL_ID" value="demosend3@gmail.com" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Users\bsake\.virtualenvs\Hotel_Ordering_Application-bpjnJbNN\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -93,6 +108,36 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="pc" type="Python.DjangoServer" factoryName="Django server">
+      <module name="Hotel_Ordering_Application" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="Hotel_Ordering_Application.settings" />
+        <env name="EMAIL_PW" value="Thankyougoogle" />
+        <env name="EMAIL_ID" value="demosend3@gmail.com" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\bsake\.virtualenvs\Hotel_Ordering_Application-bpjnJbNN\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="pc.local" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Django Server.Hotel_Ordering_Application" />
+      <item itemvalue="Django Server.pc" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -107,6 +152,18 @@
       <workItem from="1615393608855" duration="520000" />
       <workItem from="1615451928521" duration="3421000" />
       <workItem from="1615468577214" duration="1763000" />
+      <workItem from="1615978690690" duration="1703000" />
+      <workItem from="1615980579010" duration="689000" />
+      <workItem from="1616128313716" duration="32000" />
+      <workItem from="1616132813671" duration="651000" />
+      <workItem from="1616161261399" duration="1214000" />
+      <workItem from="1616247977559" duration="15000" />
+      <workItem from="1617786936609" duration="2099000" />
+      <workItem from="1617825811933" duration="26000" />
+      <workItem from="1618497644663" duration="6065000" />
+      <workItem from="1618600641206" duration="1365000" />
+      <workItem from="1618604320115" duration="621000" />
+      <workItem from="1618659731136" duration="10539000" />
     </task>
     <task id="LOCAL-00001" summary="altered models">
       <created>1615366594810</created>
@@ -255,7 +312,21 @@
       <option name="project" value="LOCAL" />
       <updated>1615470810649</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="bug has resolved!!!">
+      <created>1615981029415</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1615981029415</updated>
+    </task>
+    <task id="LOCAL-00023" summary="added images!">
+      <created>1615981161323</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1615981161323</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,32 +366,8 @@
     <MESSAGE value="New url is created for for the profile picture updation." />
     <MESSAGE value="New view is created for for the profile picture updation. And the old profile picture will delete from the file." />
     <MESSAGE value="uptodate files." />
-    <option name="LAST_COMMIT_MESSAGE" value="uptodate files." />
-  </component>
-  <component name="WindowStateProjectService">
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1615388894378">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1615388894378" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1615388894378">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1615388894378" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1615388894378">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1615388894378" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1615388894378">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1615388894378" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1615470821891">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1615470821891" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1615470723728">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1615470723728" />
+    <MESSAGE value="bug has resolved!!!" />
+    <MESSAGE value="added images!" />
+    <option name="LAST_COMMIT_MESSAGE" value="added images!" />
   </component>
 </project>
