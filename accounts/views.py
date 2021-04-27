@@ -94,7 +94,8 @@ def default_home(request):
             return redirect('logout_page')
         # return HttpResponse('You are not authorized to view this page')
     else:
-        return redirect('hello')
+        print("home page")
+        return redirect('food')
 
 
 def settings_view(request):
