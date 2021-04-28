@@ -105,9 +105,9 @@ def settings_view(request):
         form = settigs_form(request.POST, request.FILES, instance=userr)
         if form.is_valid():
             form.save()
-            return redirect('hello')
-        else:
-            return redirect('settings')
+            return redirect('food')
+        # else:
+        #     return redirect('settings')
     context = {'form': form}
     return render(request, 'accounts/settings.html', context)
 

@@ -12,27 +12,34 @@
     <link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
 
     <script type="text/javascript">
-		var user = '{{request.user}}'
+        var user = '{{request.user}}'
 
-		function getToken(name) {
-		    var cookieValue = null;
-		    if (document.cookie && document.cookie !== '') {
-		        var cookies = document.cookie.split(';');
-		        for (var i = 0; i < cookies.length; i++) {
-		            var cookie = cookies[i].trim();
-		            // Does this cookie string begin with the name we want?
-		            if (cookie.substring(0, name.length + 1) === (name + '=')) {
-		                cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
-		                break;
-		            }
-		        }
-		    }
-		    return cookieValue;
-		}
-		var csrftoken = getToken('csrftoken')
+        function getToken(name) {
+            var cookieValue = null;
+            if (document.cookie && document.cookie !== '') {
+                var cookies = document.cookie.split(';');
+                for (var i = 0; i < cookies.length; i++) {
+                    var cookie = cookies[i].trim();
+                    // Does this cookie string begin with the name we want?
+                    if (cookie.substring(0, name.length + 1) === (name + '=')) {
+                        cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                        break;
+                    }
+                }
+            }
+            return cookieValue;
+        }
+
+        var csrftoken = getToken('csrftoken')
 
     </script>
-
+    <style>
+        .hello-msg {
+            font-size: 18px;
+            color: #fff;
+            margin-right: 20px;
+        }
+    </style>
 </head>
 <body>
 
@@ -51,12 +58,15 @@
 
         </ul>
         <div class="form-inline my-2 my-lg-0">
-            <a href="#" class="btn btn-warning">Login</a>
+
+            <span><a class="hello-msg" href="{% url 'settings' %}">Settings</a></span>
 
             <a href="{% url 'cart' %}">
                 <img id="cart-icon" src="{% static 'images/cart.png' %}">
             </a>
-            <p id="cart-total">{{cartItems}}</p>
+            <p id="cart-total">{{ cartItems }}</p>
+
+            <span><a class="hello-msg" href="{% url 'logout_page' %}">Logout</a></span>
 
         </div>
     </div>
