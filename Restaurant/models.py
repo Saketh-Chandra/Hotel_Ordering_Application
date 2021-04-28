@@ -35,10 +35,16 @@ class Product(models.Model):
 class Order(models.Model):
     customer = models.ForeignKey(Customer, on_delete=models.SET_NULL, blank=True, null=True)
     complete = models.BooleanField(default=False)
-    transaction_id = models.CharField(max_length=200, null=True)
+    # bill_id = models.ForeignKey(bill, on_delete=models.SET_NULL, null=True)
+    # name = models.ForeignKey(customer, on_delete=models.SET_NULL, null=True
+    amount = models.IntegerField(default=0)
+    payment_id = models.CharField(max_length=100, blank=False, default="due payment")
+    order_id = models.CharField(max_length=100, blank=False)
+    email = models.EmailField(max_length=100, null=True)
+    paid = models.BooleanField(default=False)
 
     def __str__(self):
-        return str(self.id)
+        return f"{str(self.customer)} {str(self.order_id)}"
 
     @property
     def get_cart_total(self):

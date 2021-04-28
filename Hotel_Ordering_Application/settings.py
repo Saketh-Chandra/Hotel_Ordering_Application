@@ -128,6 +128,9 @@ EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_PW')
 EMAIL_PORT = 587
 DEFAULT_FROM_EMAIL = os.environ.get('EMAIL_ID')
 
+DATA_KEY = os.environ.get("DATA_KEY")
+PAYMENT_KEY = os.env = os.environ.get("PAYMENT_KEY")
+
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 

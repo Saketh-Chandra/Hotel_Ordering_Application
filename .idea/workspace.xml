@@ -19,19 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c7f9957-6d73-4d17-97a2-b2a8d9997a9f" name="Default Changelist" comment="uptodate files.">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="7c7f9957-6d73-4d17-97a2-b2a8d9997a9f" name="Default Changelist" comment="Email Verification is done!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hotel_Ordering_Application/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel_Ordering_Application/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hotel_Ordering_Application/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel_Ordering_Application/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/form.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/form.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/templates/accounts/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/accounts/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/templates/accounts/registerPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/accounts/registerPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/url.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/url.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Restaurant/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Restaurant/templates/Restaurant/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant/templates/Restaurant/checkout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+    </list>
+    <list id="27120b9b-0727-4746-8e22-ea59c8c5f46a" name="Changes by DELL" comment="">
+      <change beforePath="$PROJECT_DIR$/Hotel_Ordering_Application/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel_Ordering_Application/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hotel_Ordering_Application/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel_Ordering_Application/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +55,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JupyterTrust" id="d7589902-d6fb-4a35-8eb5-8ed8d7b7a825" />
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/Hotel_Ordering_Application/settings.py">
+      <ranges>
+        <range start1="43" end1="43" start2="43" end2="44" changelist="27120b9b-0727-4746-8e22-ea59c8c5f46a" />
+        <range start1="129" end1="129" start2="130" end2="133" changelist="7c7f9957-6d73-4d17-97a2-b2a8d9997a9f" />
+      </ranges>
+    </file>
+  </component>
   <component name="ProjectId" id="1pYgyg6xXdZRhF9rorIEqpOeQ6t" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -117,6 +122,9 @@
         <env name="DJANGO_SETTINGS_MODULE" value="Hotel_Ordering_Application.settings" />
         <env name="EMAIL_PW" value="Thankyougoogle" />
         <env name="EMAIL_ID" value="demosend3@gmail.com" />
+        <env name="DATA_KEY" value="rzp_test_ROvybvqhbXVE2k" />
+        <env name="PAYMENT_KEY" value="AB4fYW2RTlMECEyrsz72L5F4" />
+        <env name="SECRET_KEY" value="nzj*6b!jr2490z$g^57kfav#jkt18mobqyvo1+13k+o@33#)3x" />
       </envs>
       <option name="SDK_HOME" value="C:\Users\bsake\.virtualenvs\Hotel_Ordering_Application-bpjnJbNN\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="" />
