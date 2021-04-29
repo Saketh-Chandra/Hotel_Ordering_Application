@@ -19,16 +19,45 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c7f9957-6d73-4d17-97a2-b2a8d9997a9f" name="Default Changelist" comment="Email Verification is done!">
+    <list default="true" id="7c7f9957-6d73-4d17-97a2-b2a8d9997a9f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/wallet/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallet/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallet/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallet/decorators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallet/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallet/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallet/migrations/0002_bill_email.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallet/migrations/0003_auto_20210331_1214.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallet/migrations/0004_auto_20210331_1239.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallet/migrations/0005_auto_20210428_1806.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallet/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallet/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallet/templates/wallet/add_balance.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallet/templates/wallet/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallet/templates/wallet/email.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallet/templates/wallet/email.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallet/templates/wallet/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallet/templates/wallet/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallet/templates/wallet/partial_bill.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallet/templates/wallet/payment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallet/templates/wallet/registration.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallet/templates/wallet/success.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallet/templates/wallet/wallet_payment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallet/templates/wallet/wallet_success.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallet/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallet/url.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallet/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hotel_Ordering_Application/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel_Ordering_Application/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restaurant/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restaurant/templates/Restaurant/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant/templates/Restaurant/checkout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <list id="27120b9b-0727-4746-8e22-ea59c8c5f46a" name="Changes by DELL" comment="">
       <change beforePath="$PROJECT_DIR$/Hotel_Ordering_Application/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel_Ordering_Application/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hotel_Ordering_Application/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel_Ordering_Application/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Restaurant/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Restaurant/templates/Restaurant/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant/templates/Restaurant/checkout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Restaurant/templates/Restaurant/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant/templates/Restaurant/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Restaurant/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Restaurant/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,14 +84,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JupyterTrust" id="d7589902-d6fb-4a35-8eb5-8ed8d7b7a825" />
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/Hotel_Ordering_Application/settings.py">
-      <ranges>
-        <range start1="43" end1="43" start2="43" end2="44" changelist="27120b9b-0727-4746-8e22-ea59c8c5f46a" />
-        <range start1="129" end1="129" start2="130" end2="133" changelist="7c7f9957-6d73-4d17-97a2-b2a8d9997a9f" />
-      </ranges>
-    </file>
-  </component>
   <component name="ProjectId" id="1pYgyg6xXdZRhF9rorIEqpOeQ6t" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -172,6 +193,7 @@
       <workItem from="1618600641206" duration="1365000" />
       <workItem from="1618604320115" duration="621000" />
       <workItem from="1618659731136" duration="10539000" />
+      <workItem from="1619671931983" duration="771000" />
     </task>
     <task id="LOCAL-00001" summary="altered models">
       <created>1615366594810</created>
@@ -334,7 +356,21 @@
       <option name="project" value="LOCAL" />
       <updated>1615981161323</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="wallet is done!">
+      <created>1619628178122</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1619628178122</updated>
+    </task>
+    <task id="LOCAL-00025" summary="wallet/payment bugs resolved and implemented Tags">
+      <created>1619645151185</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1619645151185</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -376,6 +412,8 @@
     <MESSAGE value="uptodate files." />
     <MESSAGE value="bug has resolved!!!" />
     <MESSAGE value="added images!" />
-    <option name="LAST_COMMIT_MESSAGE" value="added images!" />
+    <MESSAGE value="wallet is done!" />
+    <MESSAGE value="wallet/payment bugs resolved and implemented Tags" />
+    <option name="LAST_COMMIT_MESSAGE" value="wallet/payment bugs resolved and implemented Tags" />
   </component>
 </project>
