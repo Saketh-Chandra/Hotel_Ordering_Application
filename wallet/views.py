@@ -156,7 +156,8 @@ def checkout_payment(request, id):
             receipt.email = email
             receipt.save()
             context = {'payment': payment, 'amount': payment['amount'] / 100, 'paid': receipt.paid,
-                       'data_key': settings.DATA_KEY, 'balance': wallet_attrb.balance,'total':wallet_attrb.balance+payment['amount']/100}
+                       'data_key': settings.DATA_KEY, 'balance': wallet_attrb.balance,
+                       'total': wallet_attrb.balance + payment['amount'] / 100}
             context['amount'] = amount / 100
 
             return render(request, "wallet/partial_bill.html", context)
@@ -255,10 +256,10 @@ def add_balance_to_wallet(request):
                 context = {'payment': payment, 'amount': payment['amount'] / 100, 'paid': receipt.paid,
                            'data_key': settings.DATA_KEY, 'balance': wallet_attrb.balance}
                 return render(request, "wallet/wallet_payment.html", context)
-    except:
-        message = "The Amount should be greater than 1 Rupee."
-        messages.error(request, message)
-        return redirect('add_balance')
+    except Exception as e:
+        meg = str(e)
+        messages.success(request, meg)
+        print(e)
 
     return render(request, 'wallet/add_balance.html', {'form': form})
 
