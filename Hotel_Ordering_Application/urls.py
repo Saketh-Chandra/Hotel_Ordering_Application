@@ -25,6 +25,7 @@ urlpatterns = [
     path('', default_home, name='default_home_name'),
     path('accounts/', include('accounts.url')),
     path('verification/', include('verify_email.urls')),
+    path('wallet/', include('wallet.url'))
 
 ]
 

@@ -153,7 +153,7 @@ def checkout_payment(request, id):
             payment = client.order.create({'amount': amount, 'currency': 'INR', 'payment_capture': '1'})
             receipt = Order.objects.get(id=id)
             receipt.order_id = payment['id']
-            receipt.email = email
+            # receipt.email = email
             receipt.save()
             context = {'payment': payment, 'amount': payment['amount'] / 100, 'paid': receipt.paid,
                        'data_key': settings.DATA_KEY, 'balance': wallet_attrb.balance,
@@ -167,7 +167,7 @@ def checkout_payment(request, id):
         #                                email=email)
         receipt = Order.objects.get(id=id)
         receipt.order_id = payment['id']
-        receipt.email = email
+        # receipt.email = email
         receipt.save()
         context = {'payment': payment, 'amount': payment['amount'] / 100, 'paid': receipt.paid,
                    'data_key': settings.DATA_KEY, 'balance': wallet_attrb.balance}
@@ -258,7 +258,7 @@ def add_balance_to_wallet(request):
                 return render(request, "wallet/wallet_payment.html", context)
     except Exception as e:
         meg = str(e)
-        messages.success(request, meg)
+        messages.error(request, meg)
         print(e)
 
     return render(request, 'wallet/add_balance.html', {'form': form})

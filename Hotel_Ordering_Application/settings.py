@@ -41,6 +41,9 @@ INSTALLED_APPS = [
     'Restaurant',
     'crispy_forms',
     "verify_email",
+    "django_filters",
+    "wallet",
+
 ]
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 MIDDLEWARE = [

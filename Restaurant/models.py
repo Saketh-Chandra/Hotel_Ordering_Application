@@ -46,7 +46,7 @@ class Order(models.Model):
     amount = models.IntegerField(default=0)
     payment_id = models.CharField(max_length=100, blank=False, default="due payment")
     order_id = models.CharField(max_length=100, blank=False)
-    email = models.EmailField(max_length=100, null=True)
+    paidto_wallet = models.BooleanField(default=False)
     paid = models.BooleanField(default=False)
 
     def __str__(self):
