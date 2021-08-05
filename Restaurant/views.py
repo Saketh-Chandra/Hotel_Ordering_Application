@@ -1,8 +1,9 @@
 from django.shortcuts import render
 from django.http import JsonResponse
 import json
-
+from django.contrib.auth.decorators import login_required
 from .models import *
+from .filters import *
 
 
 # Create your views here.
@@ -18,10 +19,13 @@ def food(request):
         order = {'get_cart_total': 0, 'get_cart_items': 0}
         cartItems = order['get_cart_items']
     products = Product.objects.all()
-    context = {'products': products, 'cartItems': cartItems}
+    myfilter = productfilter(request.GET, queryset=products)
+    products = myfilter.qs
+    context = {'products': products, 'cartItems': cartItems, 'myfilter': myfilter}
     return render(request, 'Restaurant/food.html', context)
 
 
+@login_required(login_url='login_page')
 def product_info(request, id):
     product = Product.objects.get(id=id)
     context = {'product': product}
@@ -29,6 +33,7 @@ def product_info(request, id):
     return render(request, 'Restaurant/product_info.html', context=context)
 
 
+@login_required(login_url='login_page')
 def cart(request):
     if request.user.is_authenticated:
         customer = request.user
@@ -44,6 +49,7 @@ def cart(request):
     return render(request, 'Restaurant/cart.html', context)
 
 
+@login_required(login_url='login_page')
 def checkout(request):
     if request.user.is_authenticated:
         customer = request.user
@@ -60,6 +66,7 @@ def checkout(request):
     return render(request, 'Restaurant/checkout.html', context)
 
 
+@login_required(login_url='login_page')
 def updateItem(request):
     data = json.loads(request.body)
     print(data)
@@ -83,3 +90,15 @@ def updateItem(request):
         orderItem.delete()
 
     return JsonResponse('Item was added', safe=False)
+
+
+def prev_orders(request):
+    prev_ord = Order.objects.filter(customer=request.user)
+    context = {'prev_ord': prev_ord}
+    return render(request, 'Restaurant/prev_orders.html', context)
+
+
+def prev_items(request, id):
+    prev_item = OrderItem.objects.filter(order_id=id)
+    context = {'prev_item': prev_item}
+    return render(request, 'Restaurant/prev_items.html', context)

@@ -110,7 +110,7 @@ from Restaurant.models import *
 #                 return render(request, "wallet/payment.html", context)
 #     return render(request, "wallet/index.html", {'form': form})
 
-
+@login_required(login_url='login_page')
 def checkout_payment(request, id):
     print("checkout_payment 1")
     order_id = Order.objects.get(id=id)
@@ -174,7 +174,7 @@ def checkout_payment(request, id):
         return render(request, "wallet/payment.html", context)
     return render(request, "wallet/index.html", {'form': form})
 
-
+@login_required(login_url='login_page')
 def pay_with_wallet(request):
     client = razorpay.Client(auth=(settings.DATA_KEY, settings.PAYMENT_KEY))
     if request.method == "POST":
@@ -225,9 +225,9 @@ def success(request):
         date = datetime.now()
         date = date.strftime("%c")
         is_sent = send_mail(f"Your payment has been received on {date} IST.", msg_plain, settings.EMAIL_HOST_USER,
-                            [tem_receipt.email],
+                            [request.user.email],
                             html_message=msg_html)
-        context = {'sent': is_sent, 'mail_id': tem_receipt.email}
+        context = {'sent': is_sent, 'mail_id': request.user.email}
         if is_sent:
             return render(request, "wallet/success.html", context)
 
@@ -260,8 +260,11 @@ def add_balance_to_wallet(request):
         meg = str(e)
         messages.error(request, meg)
         print(e)
+    wallet_attr,creat = wallet.objects.get_or_create(name=request.user)
+    bal = wallet_attr.balance
+    context = {'form':form,'bal':bal}
 
-    return render(request, 'wallet/add_balance.html', {'form': form})
+    return render(request, 'wallet/add_balance.html', context)
 
 
 @login_required(login_url='login_page')
@@ -289,5 +292,12 @@ def adding_balance_success(request):
         wallet_balance = wallet.objects.get(name=request.user)
         wallet_balance.balance += payment['amount_paid'] / 100
         wallet_balance.save()
+        msg_plain = render_to_string('wallet/email.txt')
+        msg_html = render_to_string(('wallet/email.html'))
+        date = datetime.now()
+        date = date.strftime("%c")
+        is_sent = send_mail(f"Your payment has been received on {date} IST.", msg_plain, settings.EMAIL_HOST_USER,
+                            [request.user.email],
+                            html_message=msg_html)
         # tem_receipt = bill.objects.get(order_id=pay_id)
     return render(request, "wallet/wallet_success.html")

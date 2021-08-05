@@ -7,7 +7,7 @@ from django.contrib.auth.views import PasswordChangeView
 from django.contrib.auth import authenticate, login, logout
 from django.urls import reverse_lazy
 from .decorators import unauthenticated_user
-
+from django.contrib.auth.decorators import login_required
 from verify_email.email_handler import send_verification_email
 
 from django.contrib.auth.models import Group
@@ -62,13 +62,13 @@ def register_views(request):
     context = {'form': form}
     return render(request, 'accounts/registerPage.html', context)
 
-
+@login_required(login_url='login_page')
 def logout_view(request):
     logout(request)
     messages.success(request, 'You are successfully logged out')
     return redirect('login_page')
 
-
+@login_required(login_url='login_page')
 def default_home(request):
     print('default_home')
     group = None
@@ -97,7 +97,7 @@ def default_home(request):
         print("home page")
         return redirect('food')
 
-
+@login_required(login_url='login_page')
 def settings_view(request):
     userr = request.user
     form = settigs_form(instance=userr)
@@ -111,7 +111,7 @@ def settings_view(request):
     context = {'form': form}
     return render(request, 'accounts/settings.html', context)
 
-
+@login_required(login_url='login_page')
 def update_profile_view(request):
     user_pic = request.user
     form = update_profile_form(instance=user_pic)
