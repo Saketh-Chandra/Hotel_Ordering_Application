@@ -1,4 +1,4 @@
-{% extends "wallet/base.html" %}
+{% extends 'Restaurant/main.html' %}
 
 {% block content %}
 
@@ -7,6 +7,7 @@
             <img src="https://studygyaan.com/wp-content/uploads/2020/10/django-razorpay-logo.jpg"
                  class="img-fluid img-responsive" style="height:200px">
             <br>
+            <h3>Dear {{ request.user }}, Your current wallet balance is ₹{{ bal }}</h3>
         </div>
         <form method="POST">
             {% csrf_token %}
@@ -21,7 +22,7 @@
             {#                <label for="exampleInputPassword1">Amount</label>#}
             {#                <input type="number" name="amount" class="form-control" id="exampleInputPassword1" placeholder="Amount">#}
             {#            </div>#}
-            <h3>Dear {{ request.user }}, Your current wallet balance is ₹{{ bal }}</h3>
+
             <h4>{{ form.as_p }} </h4>
 
             <button type="submit" class="btn-sm btn-success">Submit</button>

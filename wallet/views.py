@@ -174,6 +174,7 @@ def checkout_payment(request, id):
         return render(request, "wallet/payment.html", context)
     return render(request, "wallet/index.html", {'form': form})
 
+
 @login_required(login_url='login_page')
 def pay_with_wallet(request):
     client = razorpay.Client(auth=(settings.DATA_KEY, settings.PAYMENT_KEY))
@@ -260,9 +261,9 @@ def add_balance_to_wallet(request):
         meg = str(e)
         messages.error(request, meg)
         print(e)
-    wallet_attr,creat = wallet.objects.get_or_create(name=request.user)
+    wallet_attr, creat = wallet.objects.get_or_create(name=request.user)
     bal = wallet_attr.balance
-    context = {'form':form,'bal':bal}
+    context = {'form': form, 'bal': bal}
 
     return render(request, 'wallet/add_balance.html', context)
 

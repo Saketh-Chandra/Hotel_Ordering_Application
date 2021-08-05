@@ -51,6 +51,9 @@
             margin-right: 20px;
         }
     </style>
+    {% block head %}
+
+    {% endblock head %}
 </head>
 
 
@@ -171,7 +174,7 @@
                                 <a id="cart-total">{{ cartItems }}</a>
                             </li>
                         {% endif %}
-                    <li class="nav-item">
+                        <li class="nav-item">
                             <span><a href="{% url 'logout_page' %}">Logout</a></span>
                         </li>
                     </ul>
